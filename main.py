@@ -697,7 +697,7 @@ def mirageLiteracy():
 
 
 currentIssues = st.checkbox(
-    "Do you feel you are interested in *current-world issues?*")  # alzheimer awareness, connect4cancer, diversity awareness, empty bowls, girl up, green team, red cross, SAGA, world of difference
+    "Do you feel you are interested in current-world issues?")  # alzheimer awareness, connect4cancer, diversity awareness, empty bowls, girl up, green team, red cross, SAGA, world of difference
 
 arts = st.checkbox(
     "Are you interested in the arts?")  # Art NHS, FHS theater company, FAA, OSKEY production, yearbook
@@ -802,3 +802,5 @@ st.markdown("***")
 st.header("Here are some other interesting clubs")
 chess()
 mirageLiteracy()
+
+st.caption("Developed by Arav Tyagi. View code here: https://github.com/TyagiArav/Club_Suggest")
