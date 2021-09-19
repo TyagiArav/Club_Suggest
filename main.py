@@ -802,5 +802,5 @@ st.markdown("***")
 st.header("Here are some other interesting clubs")
 chess()
 mirageLiteracy()
-
+st.markdown("***")
 st.caption("Developed by Arav Tyagi. View code here: https://github.com/TyagiArav/Club_Suggest")
