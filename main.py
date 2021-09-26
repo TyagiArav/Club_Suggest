@@ -95,8 +95,22 @@ def businessNHS(ran):
             st.write("This club will bring honor and national recognition to our students who are part of our business "
                      "education department.")
 
-# def book(): no info
-#     " "
+def book():
+    with st.expander("Book Club"):
+        st.markdown("[Description site](https://www.franklinps.net/fhs/clubs-activities/pages/book-club)")
+        st.markdown("*Contact Email:*  \n"
+                    "Ms. Kate Lawson: lawsonk@franklinps.net")
+        st.markdown("Classroom code: 4ca62f")
+        st.write("")
+        st.write("The FHS book club meets once a month to discuss and connect over our recent reads. We provide a "
+                 "prompt every month to direct our discussions, and ensure that all readers can participate and enjoy "
+                 "the club by reading something they enjoy (as opposed to a traditional book club in which everyone "
+                 "reads the same book). As a club, our mission is to provide a space for FHS students interested in "
+                 "reading to discuss their thoughts and interests, while also exposing those who don't enjoy reading "
+                 "to new genres and content, different to the ones they have read in school. Through this club, "
+                 "we hope to expand people’s reading horizons and create a community for those who share our similar "
+                 "interest in reading. ")
+        st.write("Meeting dates/times:  Every third Friday in 233 from 2:15-2:45")
 
 def chess():
     with st.expander("Chess Club"):
@@ -803,4 +817,5 @@ st.header("Here are some other interesting clubs")
 chess()
 mirageLiteracy()
 st.markdown("***")
-st.caption("Developed by Arav Tyagi. View code here: https://github.com/TyagiArav/Club_Suggest")
+st.write("To request changes, email 9000862@gmail.com")
+st.caption("Developed by Technotonin. View code here: https://github.com/TyagiArav/Club_Suggest")
