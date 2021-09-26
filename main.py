@@ -744,73 +744,74 @@ music = st.checkbox(
 
 # other: board and games, Book Club, Chess Club, Classics club,  Mirage literacy magazine
 st.markdown("***")
-st.header("Here are your suggestions")
-if currentIssues:
-    greenTeam()
-    cancer()
-    diversity()
-    emptyBowls()
-    girlUP()
-    redCross(redCrossCalled)
-    saga(sagaCalled)
-    worldOfDiffernce()
+if(currentIssues or arts or learning or schoolImpacting or busAndFinance or govAndPol or honorSociety or adventure or technology or music):
+    st.header("Here are your suggestions")
+    if currentIssues:
+        greenTeam()
+        cancer()
+        diversity()
+        emptyBowls()
+        girlUP()
+        redCross(redCrossCalled)
+        saga(sagaCalled)
+        worldOfDiffernce()
 
-if arts:
-    artNHS(artNhsCalled)
-    theaterCompany()
-    FAA()
-    oskey()
-    yearbook(yearbookCalled)
+    if arts:
+        artNHS(artNhsCalled)
+        theaterCompany()
+        FAA()
+        oskey()
+        yearbook(yearbookCalled)
 
-if learning:
-    acadec()
-    math()
-    scienceNHS(scienceNHSCalled)
-    scienceOlympiad()
+    if learning:
+        acadec()
+        math()
+        scienceNHS(scienceNHSCalled)
+        scienceOlympiad()
 
-if schoolImpacting:
-    bestBuddies()
-    communityService()
-    happiness()
-    pantherbook()
-    redCross(redCrossCalled)
-    sadd()
-    saga(sagaCalled)
-    yearbook(yearbookCalled)
-    tastebuds()
+    if schoolImpacting:
+        bestBuddies()
+        communityService()
+        happiness()
+        pantherbook()
+        redCross(redCrossCalled)
+        sadd()
+        saga(sagaCalled)
+        yearbook(yearbookCalled)
+        tastebuds()
 
-if busAndFinance:
-    businessNHS(busNHSCalled)
-    deca()
-    youngInvestors()
+    if busAndFinance:
+        businessNHS(busNHSCalled)
+        deca()
+        youngInvestors()
 
-if govAndPol:
-    mock()
-    modCongress()
-    peerLeader()
-    studentGov()
+    if govAndPol:
+        mock()
+        modCongress()
+        peerLeader()
+        studentGov()
 
-if honorSociety:
-    artNHS(artNhsCalled)
-    businessNHS(busNHSCalled)
-    nhs()
-    scienceNHS(scienceNHSCalled)
+    if honorSociety:
+        artNHS(artNhsCalled)
+        businessNHS(busNHSCalled)
+        nhs()
+        scienceNHS(scienceNHSCalled)
 
-if adventure:
-    hiking()
-    skiAndBoard()
+    if adventure:
+        hiking()
+        skiAndBoard()
 
-if technology:
-    robotics()
-    computers()
-    girlsWhoCode()
+    if technology:
+        robotics()
+        computers()
+        girlsWhoCode()
 
 
-if music:
-    jazz()
-    musicPro()
-    unifiedMusic()
-    triM()
+    if music:
+        jazz()
+        musicPro()
+        unifiedMusic()
+        triM()
 
 st.markdown("***")
 st.header("Here are some other interesting clubs")
