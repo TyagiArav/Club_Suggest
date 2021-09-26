@@ -743,8 +743,9 @@ music = st.checkbox(
 
 
 # other: board and games, Book Club, Chess Club, Classics club,  Mirage literacy magazine
-st.markdown("***")
+
 if(currentIssues or arts or learning or schoolImpacting or busAndFinance or govAndPol or honorSociety or adventure or technology or music):
+    st.markdown("***")
     st.header("Here are your suggestions")
     if currentIssues:
         greenTeam()
